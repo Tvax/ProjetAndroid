@@ -1,7 +1,5 @@
 package com.example.teiva.testdrawer;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Paint;
@@ -19,6 +17,8 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+
+import com.example.teiva.testdrawer.map.InterestPoint;
 
 import org.osmdroid.api.IGeoPoint;
 import org.osmdroid.api.IMapController;
@@ -134,17 +134,18 @@ public class MainActivity extends AppCompatActivity
             public boolean longPressHelper(GeoPoint p) {
                 //TODO: ajouter un marqueur (CAD afficher fenetre pour choisir type de marqueur + option
                 //enables this opt in feature
-                Marker.ENABLE_TEXT_LABELS_WHEN_NO_IMAGE = true;
-//build the marker
-                Marker m = new Marker(map);
-                m.setTextLabelBackgroundColor(backgroundColor);
-                m.setTextLabelFontSize(fontSizeDp);
-                m.setTextLabelForegroundColor(fontColor);
-                m.setTitle("hello world");
-//must set the icon to null last
-                m.setIcon(null);
-                m.setPosition(p);
-                map.getOverlays().add(m);
+//                Marker.ENABLE_TEXT_LABELS_WHEN_NO_IMAGE = true;
+////build the InterestPoint
+//                Marker m = new Marker(map);
+//                m.setTextLabelBackgroundColor(backgroundColor);
+//                m.setTextLabelFontSize(fontSizeDp);
+//                m.setTextLabelForegroundColor(fontColor);
+//                m.setTitle("hello world");
+////must set the icon to null last
+//                m.setIcon(null);
+//                m.setPosition(p);
+
+                map.getOverlays().add(new InterestPoint(p, map).getNewMarker());
                 return false;
             }
         };
@@ -190,16 +191,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_settings) {
             startActivity(new Intent(getBaseContext(), SettingsActivity.class));
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
@@ -240,16 +236,16 @@ public class MainActivity extends AppCompatActivity
 
 //onRestoreInstanceState
 
-    @Override
-    public void onRestoreInstanceState(Bundle savedInstanceState) {
-
-        super.onRestoreInstanceState(savedInstanceState);
-        // Restore UI state from the savedInstanceState.
-        // This bundle has also been passed to onCreate.
-
-        boolean myBoolean = savedInstanceState.getBoolean("MyBoolean");
-        double myDouble = savedInstanceState.getDouble("myDouble");
-        int myInt = savedInstanceState.getInt("MyInt");
-        String myString = savedInstanceState.getString("MyString");
-    }
+//    @Override
+//    public void onRestoreInstanceState(Bundle savedInstanceState) {
+//
+//        super.onRestoreInstanceState(savedInstanceState);
+//        // Restore UI state from the savedInstanceState.
+//        // This bundle has also been passed to onCreate.
+//
+//        boolean myBoolean = savedInstanceState.getBoolean("MyBoolean");
+//        double myDouble = savedInstanceState.getDouble("myDouble");
+//        int myInt = savedInstanceState.getInt("MyInt");
+//        String myString = savedInstanceState.getString("MyString");
+//    }
 }
