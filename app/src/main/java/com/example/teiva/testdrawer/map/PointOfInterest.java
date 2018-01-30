@@ -13,23 +13,40 @@ import static org.osmdroid.views.overlay.gridlines.LatLonGridlineOverlay.fontSiz
  * Created by teiva on 29/01/18.
  */
 
-public class InterestPoint {
+public class PointOfInterest {
     private GeoPoint geoPoint;
     private MapView mapView;
     private Marker marker;
+
+    private String description;
+    public void setDescription(String description){
+        this.description = description;
+    }
 
     //a voir ca se trouve c'est pas ca qu'il faut utiliser
     //Image imageHint;
     //String description;
 
-    public InterestPoint(GeoPoint geoPoint, MapView mapView){
+    public Marker getMarker(){
+        return marker;
+    }
+
+    public PointOfInterest(GeoPoint geoPoint, MapView mapView){
         this.geoPoint = geoPoint;
         this.mapView = mapView;
+        setDefaultMarker();
     }
+
+    public PointOfInterest(GeoPoint geoPoint, MapView mapView, String description){
+        this(geoPoint, mapView);
+        this.description = description;
+    }
+
+
 
     private void setDefaultMarker() {
         Marker.ENABLE_TEXT_LABELS_WHEN_NO_IMAGE = true;
-        //build the InterestPoint
+        //build the PointOfInterest
         marker = new Marker(mapView);
         marker.setTextLabelBackgroundColor(backgroundColor);
         marker.setTextLabelFontSize(fontSizeDp);
