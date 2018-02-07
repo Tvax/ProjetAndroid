@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.osmdroid:osmdroid-android-5.6.5">
+    <CLASSES>
+      <root url="jar:///tmp/.gradle/caches/transforms-1/files-1.1/osmdroid-android-5.6.5.aar/b904a67477655af785ea35c9c0027ab3/jars/classes.jar!/" />
+      <root url="file:///tmp/.gradle/caches/transforms-1/files-1.1/osmdroid-android-5.6.5.aar/b904a67477655af785ea35c9c0027ab3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///tmp/.gradle/caches/modules-2/files-2.1/org.osmdroid/osmdroid-android/5.6.5/bafc57854a32eb15086bb506b7cb4f12058c9fec/osmdroid-android-5.6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
