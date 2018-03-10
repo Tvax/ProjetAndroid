@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665977171935",
+    "firebase_url": "https://teivafleurythibaultpradier.firebaseio.com",
+    "project_id": "teivafleurythibaultpradier",
+    "storage_bucket": "teivafleurythibaultpradier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665977171935:android:40288dfa8bc5c95f",
+        "android_client_info": {
+          "package_name": "com.example.teiva.testdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665977171935-3vbrb3hgrai5h7o2ab1v33q6vl6a0ctg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teiva.testdrawer",
+            "certificate_hash": "b556ee0bbc80da1af4acc3c24894521f201dc887"
+          }
+        },
+        {
+          "client_id": "665977171935-vr3u2dr47j3vcq2a0hpdkrm6goeia0pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Z-XmjgSwr0RP4FlBRA527HeEthl4buU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665977171935-vr3u2dr47j3vcq2a0hpdkrm6goeia0pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
