@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Oui</string>
+    <string name="settings">Paramètres</string>
+    <string name="more">Plus</string>
+    <string name="about">À propos</string>
+
+    <string name="alert_dialog_title">Ajouter marqueur</string>
+    <string name="alert_dialog_marker_name">Nom du marqueur</string>
+    <string name="point_of_interest_editor">Editeur de point d\'intérêt</string>
+    <string name="description">Description</string>
+    <string name="submit">Valider</string>
+    <string name="remove">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="enable_tips">Conseils au démarrage</string>
+    <string name="about_description">Partage toutes tes astuces et coins secrets pour ceux qui veulent voyager librement et sans dépenser.</string>
+    <string name="libraries">Bibliothèques</string>
+    <string name="some_more">Encore plus</string>
+    <string name="icon_by">Icône de</string>
+    <string name="long_press_on_map_tip">Appuie long sur la carte pour ajouter un point d\'intérêt</string>
+    <string name="slide_right_tip">Slide vers la gauche pour accéder aux paramètres</string>
+    <string name="SHOWER">DOUCHE</string>
+    <string name="WC">WC</string>
+    <string name="PARKING_SPOT">PARKING SPOT</string>
+    <string name="INSTA_SPOT">INSTA SPOT</string>
+    <string name="VAN_SPOT">VAN SPOT</string>
+    <string name="SURF_SPOT">SURF SPOT</string>
+    <string name="OTHER">AUTRE</string>
+    <string name="erro_loading_DB">Erreur de chargement</string>
+    <string name="error_saving_DB">Erreur lors de la sauvegarde</string>
+</resources>

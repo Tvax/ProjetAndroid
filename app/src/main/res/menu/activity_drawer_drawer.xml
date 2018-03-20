@@ -3,29 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item android:type="@string/settings"
-        android:title="@string/settings">
+    <item android:title="@string/settings">
         <menu>
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"
-            android:type="@string/settings"
             android:title="@string/settings" />
         </menu>
     </item>
 
-    <item android:type="@string/communicate"
-        android:title="@string/communicate">
+    <item android:title="@string/more">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:type="@string/share"
-                android:title="@string/share" />
-            <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_about"
                 android:icon="@android:drawable/ic_dialog_info"
-                android:type="@string/about"
                 android:title="@string/about" />
         </menu>
     </item>

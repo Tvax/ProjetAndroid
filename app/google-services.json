@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "665977171935",
-    "firebase_url": "https://teivafleurythibaultpradier.firebaseio.com",
-    "project_id": "teivafleurythibaultpradier",
-    "storage_bucket": "teivafleurythibaultpradier.appspot.com"
+    "project_number": "532590207673",
+    "firebase_url": "https://vanlife-820ae.firebaseio.com",
+    "project_id": "vanlife-820ae",
+    "storage_bucket": "vanlife-820ae.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:665977171935:android:40288dfa8bc5c95f",
+        "mobilesdk_app_id": "1:532590207673:android:705d4a3097b505e1",
         "android_client_info": {
-          "package_name": "com.example.teiva.testdrawer"
+          "package_name": "com.example.vanlife"
         }
       },
       "oauth_client": [
         {
-          "client_id": "665977171935-3vbrb3hgrai5h7o2ab1v33q6vl6a0ctg.apps.googleusercontent.com",
+          "client_id": "532590207673-unm7eph1o23sijmduskhrfs4sj17ghvq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.teiva.testdrawer",
-            "certificate_hash": "b556ee0bbc80da1af4acc3c24894521f201dc887"
+            "package_name": "com.example.vanlife",
+            "certificate_hash": "95d65b79a33f45ceb829667aacb7647e996a4a1c"
           }
         },
         {
-          "client_id": "665977171935-vr3u2dr47j3vcq2a0hpdkrm6goeia0pb.apps.googleusercontent.com",
+          "client_id": "532590207673-lcr3tl6660qo5ol1jfrnagsmc7motu51.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA1Z-XmjgSwr0RP4FlBRA527HeEthl4buU"
+          "current_key": "AIzaSyBwwq-y2SNguLspwsagjTk1HaXOdnwqA8Y"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "665977171935-vr3u2dr47j3vcq2a0hpdkrm6goeia0pb.apps.googleusercontent.com",
+              "client_id": "532590207673-lcr3tl6660qo5ol1jfrnagsmc7motu51.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

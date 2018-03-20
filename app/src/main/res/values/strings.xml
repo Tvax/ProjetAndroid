@@ -1,93 +1,49 @@
 <resources>
-    <string name="app_name">TestDrawer</string>
-    <string name="title_activity_drawer">drawer</string>
+    <string name="app_name" translatable="false">Vanlife</string>
+    <string name="title_activity_drawer" translatable="false">VanLife</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_settings">Settings</string>
 
-    <!-- Strings related to Settings -->
+    <string name="title_point_of_interest_activity">pointOfInterest</string>
 
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
-
-    <string-array name="list_preference_entries">
-        <item>Entry 1</item>
-        <item>Entry 2</item>
-        <item>Entry 3</item>
-    </string-array>
-
-    <string-array name="list_preference_entry_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="multi_select_list_preference_default_value" />
-
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-
-    <string name="pref_title_vibrate">Vibrate</string>
 
     <!-- Menu Items -->
     <string name="yes">Yes</string>
     <string name="settings">Settings</string>
-    <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
+    <string name="more">More</string>
     <string name="about">About</string>
 
     <string name="alert_dialog_title">Add marker</string>
     <string name="alert_dialog_marker_name">Marker name</string>
+    <string name="point_of_interest_editor">Point of Interest Editor</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="enable_tips">Tips at startup</string>
+    <string name="about_description">Share all of your tips and tricks to people wanting to travel freely without making big expenses !</string>
+    <string name="libraries">Libraries</string>
+    <string name="osmdroid">osmdroid</string>
+    <string name="about_androidAboutPage">android-about-page</string>
+    <string name="about_AndroidGithub">medyo/android-about-page</string>
+    <string name="some_more">Some more</string>
+    <string name="icon_by">Icon by</string>
+    <string name="freepik_url">freepik.com</string>
+    <string name="vanlife_version_string">Van Life v0.1</string>
+    <string name="gpl3_string">GNU General Public License v3.0</string>
+    <string name="long_press_on_map_tip">Long press on the map to add a point of interest</string>
+    <string name="slide_right_tip">Slide to the right to get to the settings</string>
+    <string name="SHOWER">SHOWER</string>
+    <string name="WC">WC</string>
+    <string name="PARKING_SPOT">PARKING SPOT</string>
+    <string name="INSTA_SPOT">INSTA SPOT</string>
+    <string name="VAN_SPOT">VAN SPOT</string>
+    <string name="SURF_SPOT">SURF SPOT</string>
+    <string name="OTHER">OTHER</string>
+    <string name="erro_loading_DB">Error loading from DB</string>
+    <string name="error_saving_DB">Error saving to DB</string>
 
 </resources>
